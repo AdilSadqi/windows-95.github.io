@@ -1,11 +1,11 @@
-tag1:
-  name: Home
+Home:
+  name: tag1
 
-tag2:
-  name: About
+About:
+  name: tag2
 
-tag3:
+Projects:
   name: Projects
 
-tag4:
+Contact:
   name: Contact
