@@ -1,5 +1,5 @@
-// By: h01000110 (hi)
-// github.com/h01000110
+// By: Adil Sadqi (hi)
+// github.com/AdilSadqi
 
 function numbers () {
 	var fields = document.getElementsByTagName("code");
