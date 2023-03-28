@@ -1,5 +1,5 @@
-// By: h01000110 (hi)
-// github.com/h01000110
+// By: Adil Sadqi (hi)
+// github.com/Adil Sadqi
 
 var max = document.getElementsByClassName("btn")[1];
 var min = document.getElementsByClassName("btn")[2];
