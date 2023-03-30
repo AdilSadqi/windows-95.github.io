@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Markdown Test Page"
+title: "Contact"
 tags: tag1 tag3
 ---
 
