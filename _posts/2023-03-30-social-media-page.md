@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Social"
-tags: tag4
+tags: tag4 social
 ---
 
 ## Source: [Markdown Test Page](https://github.com/fullpipe/markdown-test-page)
