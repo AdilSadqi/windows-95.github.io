@@ -3,4 +3,18 @@ layout: me
 title: me
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lobortis placerat enim nec cursus. Ut et elit congue, facilisis dui id, efficitur velit. Integer faucibus velit varius arcu consectetur aliquam. Sed dui ante, euismod non malesuada vel, suscipit vel elit. Nullam tempor vehicula urna, sed dignissim ligula hendrerit in. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin et nisi eget nunc vehicula posuere. Nam elementum finibus auctor. Suspendisse a mauris et arcu molestie egestas sed et dolor. Nullam ut est tristique, iaculis tortor non, viverra felis. Praesent a tincidunt tellus, eget congue eros. Mauris non libero nec ipsum ultricies tincidunt sit amet nec ante. Duis molestie sem at ligula rhoncus viverra. Pellentesque sit amet tortor euismod, rhoncus lacus a, sodales odio. Proin ac convallis ipsum. Cras tincidunt mollis consequat.
+Hey, I'm Adil!👋
+
+Since 1998 I’ve start learning about computer and programing and on this page you will find all what i have learned in the past years until now
+
+And this Website created by me and I’ve name it Terminal because this is like my knowledge Terminal and to put all my experience on this page
+
+And the purpose of building this site is just to let people know more about me and keep in touch with my Friends and with who i know and everyone interesting to contact me
+
+with a simple design and new look website.
+
+And I’ve used to build this website HTML
+
+PHP and CSS with some animation to keep it lightweight site.
+
+Please feel free to contact me if you have anything for me to say 😉
