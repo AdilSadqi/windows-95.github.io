@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Contact"
-tags: tag1 tag3
+title: ""
+tags: 
 ---
 
 ## Source: [Markdown Test Page](https://github.com/fullpipe/markdown-test-page)
