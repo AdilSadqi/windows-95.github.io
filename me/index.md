@@ -5,7 +5,7 @@ title: me
 
 Hey, I'm Adil!👋
 
-Since 1998 I’ve start learning about computer and programing and on this page you will find all what i have learned in the past years until now
+Since 1998 I’ve start learning about computer and programing and you are in the right place to find out all what i have learned in the past years until now
 
 And this Website created by me and I’ve name it Terminal because this is like my knowledge Terminal and to put all my experience on this page
 
