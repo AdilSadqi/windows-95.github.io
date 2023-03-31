@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Social"
-tags: Comtact
+tags: Contact
 ---
 
 ## Source: [Markdown Test Page](https://github.com/fullpipe/markdown-test-page)
