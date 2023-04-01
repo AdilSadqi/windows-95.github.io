@@ -5,7 +5,7 @@
   </head>
   <body>
     <h1>Did You Liked My Website?!</h1>
-    <p>Please feel free to check my social page and contact me if you have anything for me to say<br>
+    <p>Please feel free to check my social page and contact me if you have anything for me to say😉<br>
       I'll be happy with that!</p>
 
     
@@ -21,17 +21,13 @@
         .then(data => {
           var ip = data.ip;
           var location = data.city + ", " + data.region + ", " + data.country_name;
+          var time = new Date();
+          time.setMinutes(time.getMinutes() + time.getTimezoneOffset() + data.time_zone.offset / 60);
           document.getElementById("ip").innerHTML = "Your IP address: " + ip;
           document.getElementById("location").innerHTML = "Your location: " + location;
-
-          var timezoneOffset = data.time_zone.current_offset;
-          var localTime = new Date(Date.now() + timezoneOffset * 1000);
-          var formattedTime = localTime.toLocaleTimeString();
-
-          document.getElementById("time").innerHTML = "Your local time: " + formattedTime;
+          document.getElementById("time").innerHTML = "Your local time: " + time.toLocaleString();
         })
         .catch(error => console.log(error));
     </script>
   </body>
 </html>
-
