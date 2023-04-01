@@ -4,15 +4,15 @@
     <title>My Awesome Website</title>
   </head>
   <body>
-    <h1>Welcome to My Awesome Website!</h1>
-    <p>Did you like something here? How about helping me buy some game?<br>
-      I'll appreciate it!</p>
-    <p>Bitcoin Wallet <i class="fa fa-btc"></i> 1Agt7r7aCAeWk5DyXXNyJXAXC4xxysiWjJ<br>
-      Ethereum Wallet <i class="fa fa-money"></i> 0x19BD447c94499BdcA154Dc1BeF9FCf1f4c427C16</p>
+    <h1>Did You Liked My Website?!</h1>
+    <p>Please feel free to check my social page and contact me if you have anything for me to say<br>
+      I'll be happy with that!</p>
+
     
     <div class="donate">
       <p id="ip">Loading IP address...</p>
       <p id="location">Loading location...</p>
+      <p id="time">Loading local time...</p>
     </div>
 
     <script>
@@ -23,8 +23,15 @@
           var location = data.city + ", " + data.region + ", " + data.country_name;
           document.getElementById("ip").innerHTML = "Your IP address: " + ip;
           document.getElementById("location").innerHTML = "Your location: " + location;
+
+          var timezoneOffset = data.time_zone.current_offset;
+          var localTime = new Date(Date.now() + timezoneOffset * 1000);
+          var formattedTime = localTime.toLocaleTimeString();
+
+          document.getElementById("time").innerHTML = "Your local time: " + formattedTime;
         })
         .catch(error => console.log(error));
     </script>
   </body>
 </html>
+
