@@ -10,19 +10,17 @@
     <p>Bitcoin Wallet <i class="fa fa-btc"></i> 1Agt7r7aCAeWk5DyXXNyJXAXC4xxysiWjJ<br>
       Ethereum Wallet <i class="fa fa-money"></i> 0x19BD447c94499BdcA154Dc1BeF9FCf1f4c427C16</p>
     
+    <div class="donate">
+      <p id="ip">Loading IP address...</p>
+      <p id="location">Loading location...</p>
+    </div>
+
     <script src="https://api.ipdata.co/?api-key=008abb2ebdef31a11d5ce7693ce42de5a69a66af1e88699a327820b8"></script>
     <script>
       var ip = ipdata.ip;
       var location = ipdata.city + ", " + ipdata.region + ", " + ipdata.country_name;
-      var donateDiv = document.getElementsByClassName("donate")[0];
-      var ipP = document.createElement("p");
-      var locationP = document.createElement("p");
-      var ipText = document.createTextNode("Your IP address: " + ip);
-      var locationText = document.createTextNode("Your location: " + location);
-      ipP.appendChild(ipText);
-      locationP.appendChild(locationText);
-      donateDiv.appendChild(ipP);
-      donateDiv.appendChild(locationP);
+      document.getElementById("ip").innerHTML = "Your IP address: " + ip;
+      document.getElementById("location").innerHTML = "Your location: " + location;
     </script>
   </body>
 </html>
