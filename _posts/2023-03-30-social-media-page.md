@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Social"
-tags: contact
+tags: Contact
 ---
 
 ## Source: [ASADQI.COM](https://adil.asadqi.com)
